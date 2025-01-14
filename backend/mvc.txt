@@ -1,0 +1,60 @@
+/src
+│
+├── /controllers
+│   ├── customerController.ts
+│   ├── productController.ts
+│   ├── proposalController.ts
+│   └── index.ts
+│
+├── /models
+│   ├── customerModel.ts
+│   ├── productModel.ts
+│   ├── proposalModel.ts
+│   └── index.ts
+│
+├── /routes
+│   ├── customerRoutes.ts
+│   ├── productRoutes.ts
+│   ├── proposalRoutes.ts
+│   └── index.ts
+│
+├── /services
+│   ├── customerService.ts
+│   ├── productService.ts
+│   ├── proposalService.ts
+│   └── index.ts
+│
+├── /database
+│   ├── db.ts
+│   └── migrations
+│       ├── createCustomersTable.ts
+│       ├── createProductsTable.ts
+│       ├── createProposalsTable.ts
+│       └── ...
+│
+├── /config
+│   ├── env.ts
+│   └── dbConfig.ts
+│
+├── /utils
+│   ├── logger.ts
+│   ├── errorHandler.ts
+│   └── ...
+│
+├── /middlewares
+│   ├── authMiddleware.ts
+│   ├── validationMiddleware.ts
+│   └── ...
+│
+├── /types
+│   ├── customer.d.ts
+│   ├── product.d.ts
+│   ├── proposal.d.ts
+│   └── ...
+│
+├── /tests
+│   ├── customerController.test.ts
+│   ├── productModel.test.ts
+│   └── ...
+│
+└── index.ts
